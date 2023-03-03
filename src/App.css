@@ -1,8 +1,37 @@
-.App {
-  background-color: aqua;
-  text-align: center;
-  width: 300px;
-  height: 300px;
-  padding: 10px;
-  border-radius: 5%;
+.app-wrapper {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 5px;
+  grid-template-areas: 
+  'h h'
+  'n c';
+  width: 1200px;
+  margin: 0 auto;
 }
+
+.app-header {
+  grid-area: h;
+  background-color: rgb(200, 221, 221);
+}
+
+.app-header img {
+  height: 98%;
+}
+
+.app-nav {
+  grid-area: n;
+  background-color: rgb(200, 221, 221);
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.app-content {
+  grid-area: c;
+}
+
+.app-content img {
+  width: 600px;
+}
+
