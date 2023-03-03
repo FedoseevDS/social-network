@@ -10,28 +10,3 @@
   width: 1200px;
   margin: 0 auto;
 }
-
-.app-header {
-  grid-area: h;
-  background-color: rgb(200, 221, 221);
-}
-
-.app-header img {
-  height: 98%;
-}
-
-.app-nav {
-  grid-area: n;
-  background-color: rgb(200, 221, 221);
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.app-content {
-  grid-area: c;
-}
-
-.app-content img {
-  width: 600px;
-}
-
