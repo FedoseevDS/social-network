@@ -1,0 +1,14 @@
+.header-wrapper {
+  grid-area: h;
+  background-color: rgb(200, 221, 221);
+  display: flex;
+}
+
+.header-wrapper img {
+  height: 98%;
+}
+
+.header-wrapper div {
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,8 @@
+.userPage {
+  background-color: rgb(200, 221, 221);
+  grid-area: c;
+}
+
+.userPage img {
+  width: 600px;
+}

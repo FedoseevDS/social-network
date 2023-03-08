@@ -1,0 +1,6 @@
+.sideBar {
+  grid-area: n;
+  background-color: rgb(200, 221, 221);
+  padding-left: 10px;
+  padding-top: 10px;
+}

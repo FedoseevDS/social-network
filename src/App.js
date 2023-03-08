@@ -1,21 +1,15 @@
+import Header from "./components/common/header/header";
+import SideBar from "./components/common/sideBar/sideBar";
+import Profile from "./components/common/profile/profile";
+
+import "./App.css";
+
 const App = () => (
-  <div>
+  <div className="app-wrapper">
     <Header />
-    <Technologies />
+    <SideBar />
+    <Profile />
   </div>
 );
-
-const Header = () => <h1>Шапка сайта</h1>;
-
-const Technologies = () => (
-  <div>
-    <ul>
-      <li>css</li>
-      <li>html</li>
-      <li>java script</li>
-      <li>jsx</li>
-    </ul>
-  </div>
-)
 
 export default App;
