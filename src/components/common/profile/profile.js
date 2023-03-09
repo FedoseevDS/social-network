@@ -1,11 +1,11 @@
 import alisa from "../../../assets/img/alisa.png";
 
-import "./styles.css";
+import styles from "./styles.module.css";
 
 const Profile = () => (
-  <div className="userPage">
+  <div className={styles.userPage}>
     <div>
-      <img src={alisa} />
+      <img src={alisa} alt="picture on the user's page" />
     </div>
     <div>ava + description</div>
     <div>

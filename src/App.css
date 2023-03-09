@@ -1,4 +1,4 @@
-.app-wrapper {
+.wrapper {
   box-sizing: border-box;
   display: grid;
   grid-template-rows: 100px 1fr;
