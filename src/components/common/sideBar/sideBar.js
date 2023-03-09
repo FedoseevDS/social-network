@@ -1,7 +1,7 @@
-import "./styles.css";
+import styles from "./styles.module.css";
 
 const SideBar = () => (
-  <nav className="sideBar">
+  <nav className={styles.sideBar}>
     <div>
       <a href="#">Profile </a>
     </div>

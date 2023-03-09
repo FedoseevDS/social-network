@@ -5,7 +5,7 @@ import Profile from "./components/common/profile/profile";
 import "./App.css";
 
 const App = () => (
-  <div className="app-wrapper">
+  <div className="wrapper">
     <Header />
     <SideBar />
     <Profile />
