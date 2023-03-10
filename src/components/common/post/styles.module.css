@@ -1,0 +1,16 @@
+.wrapper {
+  box-sizing: border-box;
+  color: brown;
+  height: 70px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.wrapper div {
+  overflow: hidden;
+}
+
+.wrapper div img {
+  width: 70px;
+}
