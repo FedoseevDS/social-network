@@ -12,8 +12,8 @@ const MyPost = () => (
       <button>New post</button>
     </div>
     <div>
-      <Post text={"Пост 1"} img={kateImg} />
-      <Post text={"Пост 2"} img={pit} />
+      <Post message="Hi, how are you?" img={kateImg} like='12' />
+      <Post message='It is my first post' img={pit} like='21' />
     </div>
   </div>
 );

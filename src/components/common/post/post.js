@@ -1,11 +1,12 @@
 import styles from "./styles.module.css";
 
-const Post = ({ text = "пост", img }) => (
+const Post = ({ message = "пост", img, like='0' }) => (
   <div className={styles.wrapper}>
     <div>
-      <img src={img} alt='avatar' />
+      <img src={img} alt="avatar" />
     </div>
-    <span>{text}</span>
+    <span>{message}</span>
+    <span>- like = {like}</span>
   </div>
 );
 
